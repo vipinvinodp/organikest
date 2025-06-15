@@ -14,7 +14,7 @@ export default function ContactPage() {
       <div className="flex-grow flex items-center justify-center px-4 py-20">
         <div className="max-w-md bg-white shadow-lg rounded-xl p-8 text-center">
           <h1 className="text-2xl font-bold text-green-700 mb-4">Contact Us</h1>
-          <p className="text-gray-700 mb-6">We'd love to hear from you!</p>
+         <p className="text-gray-700 mb-6">We&#39;d love to hear from you!</p>
 
           <div className="flex justify-center space-x-8">
             {/* Phone */}
