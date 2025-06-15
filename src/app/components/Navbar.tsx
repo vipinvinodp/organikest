@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Navbar() {
   return (
@@ -22,9 +23,9 @@ export default function Navbar() {
 
         {/* Links */}
         <div className="mt-4 sm:mt-0 space-x-6 text-sm sm:text-base text-gray-700 text-center">
-          <a href="/" className="hover:text-green-600 transition">Home</a>
-          <a href="/#products" className="hover:text-green-600 transition">Products</a>
-          <a href="/contact" className="hover:text-green-600 transition">Contact</a>
+<Link href="/" className="hover:text-green-600 transition">Home</Link>
+<Link href="/#products" className="hover:text-green-600 transition">Products</Link>
+<Link href="/contact" className="hover:text-green-600 transition">Contact</Link>
         </div>
       </div>
     </nav>
